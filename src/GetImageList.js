@@ -11,7 +11,7 @@ const GetImageList = () => {
 
     useEffect (()=>{
         if(imageList.length===0){
-            axios.get('http://www.reddit.com/r/pics/.json?jsonp=')
+            axios.get('https://www.reddit.com/r/pics/.json?jsonp=')
             .then(function (response) {
                setImageList(response.data.data.children)
               console.log(response.data.data.children);
