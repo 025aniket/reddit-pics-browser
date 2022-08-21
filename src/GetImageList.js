@@ -43,7 +43,7 @@ const GetImageList = () => {
             <DropdownButton
                 style={{padding:'5px'}}
                 alignRight
-                title="Filter results"
+                title="Sort results"
                 id="dropdown-menu-align-right"
                 onSelect={(e)=>{setSortpost(e)}}>
               <Dropdown.Item eventKey="ups">by ups count</Dropdown.Item>
